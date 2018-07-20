@@ -8,7 +8,7 @@ class HelloController extends AppController
         $this->name = 'Hello';
         $this->viewBuilder()->autoLayout(true);
         $this->viewBuilder()->Layout('honoka');
-
+        #ブランチ1
     }
     public function index()
     {
